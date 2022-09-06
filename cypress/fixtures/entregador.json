@@ -1,0 +1,51 @@
+{
+    "signup": {
+        "nome": "Carlos Alves",
+        "cpf": "80361783035",
+        "email": "carlosalves@email.com",
+        "telefone": "999911223344",
+        "endereco": {
+            "cep": "69097-163",
+            "rua": "Rua Barbosa Machado",
+            "numero": "1",
+            "complemento": "complemento teste",
+            "bairro": "Cidade Nova",
+            "cidadeUf": "Manaus/AM"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_invalido": {
+        "nome": "Carlos Alves",
+        "cpf": "000000141AA",
+        "email": "carlosalves@email.com",
+        "telefone": "999911223344",
+        "endereco": {
+            "cep": "69097-163",
+            "rua": "Rua Barbosa Machado",
+            "numero": "1",
+            "complemento": "complemento teste",
+            "bairro": "Cidade Nova",
+            "cidadeUf": "Manaus/AM"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "email_incorreto": {
+        "nome": "Carlos Alves",
+        "cpf": "80361783035",
+        "email": "carlosalves.com",
+        "telefone": "999911223344",
+        "endereco": {
+            "cep": "69097-163",
+            "rua": "Rua Barbosa Machado",
+            "numero": "1",
+            "complemento": "complemento teste",
+            "bairro": "Cidade Nova",
+            "cidadeUf": "Manaus/AM"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
