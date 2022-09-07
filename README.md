@@ -12,8 +12,24 @@
 - Cadastro de entregador (casos de teste de sucesso e exceções)
 
 ### :dart: Execução do projeto
-- **_npm install_** (realiza a instalação sas dependências para o projeto)
-- **_npm run cypress:open_** ou **_npm run test_** (apresenta a interface do cypress para a execução dos testes)
-- **_npx cypress run_** (executa os testes a partir do terminal, com vídeos dos casos de teste e captura das telas para os cenários com erro)
+- Download/clone do projeto: https://github.com/renatamg10/buger-eats-cypress.git
+- Acessar o diretório do projeto no terminal e executar os comandos:
++ **_npm install_** (realiza a instalação das dependências para o projeto)
++ **_npm run cypress:open_** ou **_npm run test_** (apresenta a interface do cypress para a execução dos testes)
++ **_npx cypress run_** (executa os testes a partir do terminal, com vídeos dos casos de teste e captura das telas para os cenários com erro)
+- Para gerar o relatório em Mochawesome:
+  ```
+  npm install --save-dev mochawesome
+  ```
+  ```
+  npm install --save-dev mocha
+  ```
+  _inserir em cypress.config.js em module.exports = defineConfig: reporter: 'mochawesome'_
+  ```
+  npx cypress run --reporter mochawesome
+  ```
+  _Executa todos os cenários e cria a pasta "mochawesome-report"_
+    - _O relatório é apresentado no arquivo "mochawesome.html"_
+
 
 #### :book: Link do curso: https://www.qacademy.io/home/course/cypress-discovery
