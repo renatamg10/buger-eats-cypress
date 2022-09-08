@@ -1,6 +1,5 @@
 pipeline{
     agent any
-
     parameters{
         string(name: 'SPEC', defaultValue:"cypress/integration/**/**", description: "Script path")
         choice(name: 'BROWSER', choices: ['chrome', 'edge'], description: "browser")
@@ -18,8 +17,7 @@ pipeline{
                 bat "npm i"
                 bat "npx cypress run --browser=${BROWSER} --spec ${SPEC}"
             }
-
-            
+     
         }
         stage('Deployng'){
             echo 'Deploying'
